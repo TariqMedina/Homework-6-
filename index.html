@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Animals Search</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Cabin Sketch Font -->
+  <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+  
+  <div id="button-holder" class="row"></div>
+  <div class="row">
+    <div id="gif-holder" class="col-lg-9"></div>
+    <div class="col-lg-3">
+      <div class="card card-default">
+        <div class="card-header">Select your topic!</div>
+        <div class="card-body">
+          <form>
+            <div class="form-group row">
+              <label for="animal-name">Search:</label>
+              <input class="form-control" id="animal-name" type="text">
+            </div>
+            <button class="btn btn-primary" id="submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="js/logic.js"></script>
+</body>
+
+</html>
